@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Broken Pricing Card</title>
+  <style>
+    .card {
+      border: 1px solid #ccc;
+      padding: 30px;
+      width: 300px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    h3 {
+      color: darkblue;
+    }
+
+    .price {
+      font-size: 22px;
+    }
+
+    .features {
+      padding-left: 5px;
+    }
+
+    .btn {
+      background: none;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    /* Broken responsiveness: nothing adjusts */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h3>Starter Plan</h3>
+      <p class="price">10 000 FCFA/mois</p>
+      <ul class="features">
+        <li>1 user</li>
+        <li>Accompagnement basique</li>
+        <li>Accès aux fonctionnalités de base</li>
+      </ul>
+      <button class="btn">Select</button>
+    </div>
+  </div>
+
+  <script>
+    // Button does nothing
+  </script>
+</body>
+</html>
